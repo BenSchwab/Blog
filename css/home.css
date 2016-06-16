@@ -1,0 +1,41 @@
+.mdl-layout__header{
+    background: #263238;
+}
+
+.mdl-layout-title {
+    font-size: 24px;
+}
+
+.mdl-layout__tab-bar {
+    background: #263238;
+}
+/*.mdl-layout__tab-bar {*/
+    /*width: 100%;*/
+    /*position: absolute;*/
+/*}*/
+
+.mdl-navigation__link {
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 64px;
+    padding: 0 16px;
+    color: #fff;
+}
+
+.blog-grid {
+    max-width: 800px;
+}
+
+.mdl-card {
+    margin: 10px auto 0 auto;
+    width: 512px;
+}
+
+.mdl-cell {
+    margin: 0 auto;
+}
+
+main {
+    background: #FAFAFA;
+}
