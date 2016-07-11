@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% include head.html %}
+    <link rel="stylesheet" type="text/css" href="/css/blog.css"/>
+</head>
+
+<!-- Simple header with scrollable tabs. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+    {% include header.html %}
+
+    <main class="mdl-layout__content">
+        <div class="blog-container">
+            {% for post in site.posts %}
+            <div class="mdl-card mdl-shadow--2dp blog-card-wide">
+                <div class="mdl-card__title">
+                    <h2 class="mdl-card__title-text">{{ post.title }}</h2>
+                </div>
+                <div class="mdl-card__media">
+                    <img class="blog-card-cover-image" src="{{post.photo}}"/>
+                </div>
+                <div class="mdl-card__supporting-text">
+                    This text might describe the photo and provide further information, such as where and
+                    when it was taken.
+                </div>
+                <div class="mdl-card__actions">
+                    <a href="{{post.url}}">Related Action</a>
+                </div>
+                <div class="mdl-card__menu">
+                    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                        <i class="material-icons">share</i>
+                    </button>
+                </div>
+            </div>
+
+            {% endfor %}
+
+        </div>
+    </main>
+
+</div>
+
+</html>

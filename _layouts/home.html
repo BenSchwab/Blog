@@ -1,40 +1,34 @@
 <!DOCTYPE html>
 <html>
 
-{% include head.html %}
+<head>
+    {% include head.html %}
+    <link rel="stylesheet" type="text/css" href="/css/home.css"/>
+    <link src="/assets/javascript/home.js">
+</head>
 
 <!-- Simple header with scrollable tabs. -->
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+<body>
+<div id="home_content">
 
-    {% include header.html %}
+    <!-- You should probably code something custom -->
+    <div id="home_centered-content">
+        <h3 class="animated fadeInUp" id="home_name">Ben Schwab</h3>
 
-    <main class="mdl-layout__content">
-        <div class="mdl-grid blog-grid">
-            <div class="mdl-cell mdl-cell--8-col">
-                {% for post in site.posts %}
-                <div class="mdl-card mdl-shadow--2dp">
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">{{ post.title }}</h2>
-                    </div>
-                    <div class="mdl-card__media">
-                        <img src="photo.jpg" width="220" height="140" border="0" alt="" style="padding:20px;">
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        This text might describe the photo and provide further information, such as where and
-                        when it was taken.
-                    </div>
-                    <div class="mdl-card__actions">
-                        <a href="{{post.url}}">Related Action</a>
-                    </div>
-                </div>
+        <div id="home_link-containers">
 
-                {% endfor %}
+            <a href="/blog">Blog</a>
 
-            </div>
+            <a href="/contact">Contact</a>
+
+            <a href="/random">Random</a>
+
         </div>
-        <footer class="mdl-mini-footer"></footer>
-    </main>
+    </div>
 
 </div>
+
+
+</body>
 
 </html>

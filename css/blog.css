@@ -1,0 +1,25 @@
+.blog-container {
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.what {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+.blog-card-wide {
+    width: 512px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.blog-card-cover-image {
+
+}
