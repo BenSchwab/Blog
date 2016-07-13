@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Annotation Processing: Introduction"
+title:  "Annotation Processing: An Introduction"
 date:   2016-07-10 00:21:12
 photo: /assets/images/annotation-processing-intro/annotation.png
 categories: annotation processings 
@@ -18,6 +18,9 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
+
+
+> Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 

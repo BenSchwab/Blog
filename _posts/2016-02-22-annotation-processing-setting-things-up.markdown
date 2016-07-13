@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Annotation Processing: Settings things up"
 date:   2016-02-09 00:21:12
 categories: jekyll update
 ---
