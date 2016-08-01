@@ -1,3 +1,11 @@
 .post-content {
     padding: 40px;
 }
+
+
+#post_content {
+    margin-top: 100px;
+}
+article {
+    z-index: 999;
+}

@@ -7,11 +7,11 @@
 </head>
 
 <!-- Simple header with scrollable tabs. -->
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+<div class="mdl-layout mdl-js-layout">
 
-    {% include header.html %}
+    {% include blog_header.html %}
 
-    <main class="mdl-layout__content">
+    <main id="blog_list" class="mdl-layout__content">
         <div class="blog-container">
             {% for post in site.posts %}
             <div class="mdl-card mdl-shadow--2dp blog-card-wide">
@@ -26,7 +26,7 @@
                     when it was taken.
                 </div>
                 <div class="mdl-card__actions">
-                    <a href="{{post.url}}">Related Action</a>
+                    <a href="{{post.url}}">Read more</a>
                 </div>
                 <div class="mdl-card__menu">
                     <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
